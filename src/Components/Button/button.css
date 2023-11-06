@@ -1,0 +1,13 @@
+.countButton {
+    background-color: #d2ab67;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 50px;
+    margin: 10px 0px;
+    cursor: pointer;
+    display: flex;
+}
+.countButton img {
+  margin: auto;
+}
