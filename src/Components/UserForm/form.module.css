@@ -30,7 +30,6 @@
     color: #ffffff;
     visibility: hidden;
     opacity: 0;
-    background-color: #d94829;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     transition: visibility 0s, opacity 0.5s linear;
@@ -38,14 +37,15 @@
 
 .formInput {
     padding-left: 20px;
-    min-width: 30%;
+    min-height:33px;
+    min-width: 35%;
     display: flex;
     border-radius:50px;
     margin: 5px;
 }
 
 .dropdownInput {
-    max-width: 390px;
+    max-width: 450px;
     min-height: 50px;
     display: flex;
     border-radius:50px;
@@ -57,6 +57,7 @@
 }
 
 .dropdownPlaceholderOverride {
+    min-width:200px;
     margin-left: 30px;
     padding-top: 3px;
 }
@@ -68,7 +69,7 @@
 .dropdownMenuOverride {
     border-top-style: none;
     border-radius: 0 0 25px 25px;
-    width:30%;
+    width:33%;
     top:75%
 }
 
